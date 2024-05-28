@@ -17,7 +17,7 @@ export const Header = () => {
       </Link>
       <ul className="flex items-center justify-center gap-4 text-sm font-normal md-5:text-xs md-9:flex-col">
         <li className="border-b-2 border-t-2 border-primary duration-300 hover:rounded hover:border-b-white-100">
-          <Link href="#">A Organização</Link>
+          <Link href="/">A Organização</Link>
         </li>
         <li className="border-b-2 border-t-2 border-primary duration-300 hover:rounded hover:border-b-white-100">
           <Link href="seja-voluntario">Quero ser Voluntário(a)</Link>
