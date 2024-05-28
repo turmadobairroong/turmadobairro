@@ -110,7 +110,7 @@ export const VolunteerForm = () => {
         </div>
         {loading ? (
           <>
-            <Loading />
+            <Loading mode={"black"}></Loading>
             <button
               disabled
               type="submit"
