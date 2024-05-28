@@ -23,7 +23,7 @@ export const IWantToAdopt = () => {
       <div className="flex flex-wrap items-center justify-start gap-6">
         {pets.length === 0 && (
           <>
-            <Loading></Loading>
+            <Loading mode={"black"}></Loading>
           </>
         )}
 

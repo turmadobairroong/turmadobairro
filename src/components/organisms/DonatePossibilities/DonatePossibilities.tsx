@@ -25,7 +25,7 @@ export const DonatePossibilities = () => {
         Maneiras de Doar:
       </h1>
       {!bankInfo ? (
-        <Loading></Loading>
+        <Loading mode={"black"}></Loading>
       ) : (
         <>
           <div className="flex flex-col items-start justify-center gap-2">
